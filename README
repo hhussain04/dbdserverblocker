@@ -1,0 +1,56 @@
+# DBD Server Blocker
+
+DBD Server Blocker is a Python script that allows you to block or unblock Dead by Daylight game servers based on their regions. This can be useful for players who want to avoid certain servers due to high latency or other reasons.
+
+## Features
+
+- List available servers and their block status
+- Block a specific server by region
+- Unblock a specific server by region
+- Block all servers
+- Unblock all servers
+
+## Requirements
+
+- Python 3.x
+- Administrative privileges (required to modify firewall rules)
+
+## Installation
+
+1. Clone the repository or download the script.
+2. Ensure you have Python 3.x installed on your system.
+
+## Usage
+
+1. Open a terminal or command prompt.
+2. Navigate to the directory containing the script.
+3. Run the script with administrative privileges:
+
+    ```sh
+    python dbdserverblocker.py
+    ```
+
+4. Follow the on-screen instructions to manage server blocking.
+
+## Available Servers
+
+The script supports the following server regions (based on the Amazon game servers):
+
+- US West (Oregon)
+- US East (North Virginia)
+- South America (São Paulo)
+- Europe (Frankfurt)
+- Europe (Ireland)
+- Asia Pacific (Mumbai)
+- Asia Pacific (Singapore)
+- Asia Pacific (Sydney)
+- Asia Pacific (Tokyo)
+- Asia Pacific (Seoul)
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Disclaimer
+
+Use this script at your own risk. The author is not responsible for any potential issues caused by modifying firewall rules.
